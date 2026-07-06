@@ -37,12 +37,13 @@ function UpdateNotification() {
                 <div className="update-notification-container">
 
                     <div className="subMenu-header">
-                        <div className="subMenu-center"> UPDATE &nbsp;|&nbsp; v{versionCode} </div>
+                        <div className="subMenu-center"> NOTE &nbsp;|&nbsp; v{versionCode} </div>
                         <div className="subMenu-right"></div>
                     </div>
                     
                     <div className="update-notification-notes">
-                        Hard Mode Enabled <br/>
+                        Transferred to https://daydreams.app.t-da.io <br/>
+                        Feel free to bookmark this site instead.
 
                     </div>
 
