@@ -69,7 +69,7 @@ export const getKeycapUnlockCurrent = (_keycap, _history) => {
     if (_keycap === "NONE" || _keycap === "GRAD" || _keycap === "STRIPE" ||
     _keycap === "DOTS" || _keycap === "CAT" || _keycap === "DIAMONDS" || 
     _keycap === "GRID" || _keycap === "BOLT" || _keycap === "EYES" ||  
-    _keycap === "LITERAL" || _keycap === "HEART" || _keycap == "GOLD") 
+    _keycap === "LITERAL" || _keycap === "HEART" || _keycap === "GOLD")
     unlockCurrent = getNumDaysWon(_history);
 
     return unlockCurrent;
